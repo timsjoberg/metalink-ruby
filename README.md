@@ -4,8 +4,8 @@ Metalink Ruby is a pure ruby library which, at the moment, requires no other gem
 
 Usage
 
-> t = Metalink::Metalink.new
-> t.add_file("/path/to/some/file.txt", [{ :type => "http", :url => "http://example.com/some/file.txt" }]
-> puts t.to_s
+    t = Metalink::Metalink.new
+    t.add_file("/path/to/some/file.txt", [{ :type => "http", :url => "http://example.com/some/file.txt" }]
+    puts t.to_s
 
 Add file takes 2 parameters. The first is the local path to the file. The second is an array of hashes, each hash being one url, with a type and a full url path
